@@ -1,0 +1,25 @@
+Name: Saranraj S
+1)Diff Between JS and NodeJS
+Javascript:
+* Javascript is used in client side for scripting a website 
+* As we known we used in client side so we can use html tags and css for giving 
+best user interface
+* Javascript can run in any browser engine which support JS   
+* JS framework are RamdaJS, TypedJS,etc
+* Js is upgraded version of ECMA script that uses chrome V8 engine written in c++
+NodeJS:
+* NodeJS is used in server side and to run outside the browser 
+* As we run it in server side we didnt able to use html and css tags
+* NodeJS can only be runned in V8 engine used in chrome
+* NodeJS modules are Lodash, express, these modules are to be imported from npm
+* NodeJs is Written in c,c++ and javascript 
+2) Code                Output
+   typeof(1)--          Number
+   typeof(1.1)--        Number
+   typeof('1.1')--      String
+   typeof(true)--       Boolean
+   typeof(null)--       Object
+   typeof(undefined)--  Undefined
+   typeof([])--         Object
+   typeof({})--         Object
+   typeof(NaN)--        Number
