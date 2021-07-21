@@ -1,0 +1,46 @@
+Name : Saranraj
+Date:21.07.2021
+
+Question:
+var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          console.log(data);
+        };
+        xhr.send();
+    use the restcountries API url ->  https://restcountries.eu/rest/v2/all
+    and display all the country flags in console
+Answer:
+ var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          countries(data);
+        };
+        xhr.send();
+        function countries(value){
+            for(let index in value )
+            console.log(value[index]["name"],"--------",value[index]["flag"]);
+        }
+ Question:
+ use the same restcountries and print all countries name, region, sub region and population.
+ Answer:
+  var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          countries(data);
+        };
+        xhr.send();
+        function countries(value){
+            for(let index in value ){
+           console.log("Country Name:",value[index]["name"],
+           "region:",value[index]["region"],
+           "Subregion:",value[index]["subregion"],
+           "Population: ",value[index]["population"]);
+        }
+        }
+         
+ Question:
+ 
