@@ -66,4 +66,149 @@ Task2:
 1)Question:
 Square of a number
 Answer:
-
+var num1=5;
+console.log(num1*num1);
+2)Question
+Swapping 2 numbers
+Answer:
+var num1=5;
+var num2=6;
+var num3;
+console.log("Before Swap:", num1,num2);
+num3=num1;
+num1=num2;
+num2=num3;
+console.log("After Swap:", num1,num2);
+3)Question
+Addition of 3 numbers
+Answer:
+var num1=7;
+var num2=17;
+var num3=16;
+console.log(parseInt(num1)+parseInt(num2)+parseInt(num3));
+4)Question:
+Celsius to fahrenheit conversion
+Answer:
+let cel= 50;
+let fah= (+cel* 1.8)+ 32;
+console.log(fah);
+5)Question
+Meter to miles conversion
+Answer:
+var meter= 20;
+var miles=meter*0.000621;
+console.log(miles);
+6)Question
+Pounds to kg
+Answer:
+var pounds=50;
+var kg=pounds*0.453592;
+console.log(kg);
+7)Question
+Calculate Batting Average
+Answer:
+var runsScored=50000;
+var out=50;
+console.log("Ave: ",runsScored/out);
+8)Question
+Calculate five test scores and print their average
+Answer:
+var test1=95;
+var test2=52;
+var test3=75;
+var test4=64;
+var test5=84;
+var ave=(parseInt(test1)+parseInt(test2)+parseInt(test3)+parseInt(test4)+parseInt(test5))/5;
+console.log(ave);
+9)Question
+Power of any number
+Answer:
+console.log(Math.pow(3,3));
+10)Question:
+Calculate Simple Interest
+Answer:
+var p= 50;
+var t= 5;
+var r= 5;
+var si= p * t * r/100;
+console.log(si);
+11)Question
+Area of equilateral triangle
+Answer:
+var num=41;
+var squareRoot=num*num;
+var din= Math.sqrt(3)/ 4;
+var area= squareRoot * din;
+console.log(area);
+12)Question
+Area of Isosceles Triangle
+Answer:
+var base=5;
+var height=2;
+var area=0.5*base*height;
+console.log(area);
+13)Question
+Volume of sphere
+Answer:
+var pi=3.14;
+var r=5;
+var volume=(4/3)*pi*Math.pow(r,3);
+console.log(volume);
+14)Question
+Volume of Prism
+Answer:
+var baseArea=54;
+var height=5;
+var vol=baseArea*height;
+console.log(vol);
+15)Question
+Area of Triangle
+Answer:
+var base=14;
+var height=4;
+var area=0.5*base*height;
+console.log(area);
+16)Question
+Give the Actual cost and Sold cost, Calculate Discount Of Product
+Answer:
+var actualCost=5000;
+var soldCost=3500;
+var discount=actualCost-soldCost;
+console.log(discount);
+17)Question
+Given their radius of a circle and find its diameter, circumference and area
+Answer:
+var rad=4;
+var diameter=r*r;
+var area=3.14*r;
+var circumference=2*3.14*4;
+console.log("Diameter:",diameter,"Area:",area,"Circumference:",circumference);
+18)Question
+Given 2 numbers and perform all arithmetic operations
+Answer:
+var num1=4,num2=4;
+console.log( "add:",num1+num2);
+console.log("Sub:",num1-num2);
+console.log("Mul:",num1*num2);
+console.log("Div:",num1/num2);
+console.log("Remainder:",num1%num2);
+19)Question
+Display the asterick pattern
+Answer
+console.log("************");
+console.log("************");
+console.log("************");
+console.log("************");
+20)Question
+Calculate electricity bill?
+For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+Answer:
+var wattsUsedPerHour=100;
+var wattsUsedPerDay=wattsUsedPerHour*24;
+var wattsUsedPerMonth=wattsUsedPerday*30;
+var wattsToUnitConversion=wattsUsedPerMonth/1000;
+var totalAmount=wattsToUnitConversion*10;
+console.log(totalAmount);
+21)Question
+Program To Calculate CGPA
+Answer:
