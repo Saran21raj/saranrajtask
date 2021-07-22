@@ -1,0 +1,31 @@
+Name: Saranraj
+Date: 22.07.2021
+Task1:
+1)Question:
+Declare four variables without assigning values and print them in console
+Answer:
+var var1,var2,var3,var4;
+console.log(var1,var2,var3,var4);
+2)Question:
+How to get value of the variable myvar as output
+Answer:
+var myvar= 1;
+console.log(myvar);
+3)Question:
+Declare variables to store your first name, last name, marital status, country and age in multiple lines
+Answer:
+var firstName="Saran";
+var lastName="raj";
+var maritalStatus="single";
+var country="INDIA";
+var age="23";
+console.log(firstName,"\n",lastName,"\n",maritalStatus,"\n",country,"\n",age);
+4)Question:
+Declare variables to store your first name, last name, marital status, country and age in a single line
+Answer:
+var firstName="Saran";
+var lastName="raj";
+var maritalStatus="single";
+var country="INDIA";
+var age="23";
+console.log("First Name: ",firstName," Last Name: ",lastName," Marital Status: ",maritalStatus," Country: ",country,"Age: ",age);
