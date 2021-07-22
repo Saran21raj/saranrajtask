@@ -42,7 +42,7 @@ Answer:
         }
         }
          
- for loop;-
+ for loop:
 var obj = [
 { person: "Rahul", age: "2", company: "GUVI" },
 { person: "Rohit", age: "5", company: "GUVI geek" },
@@ -52,7 +52,7 @@ for(let i =0;i<obj.length;i++)
 {
 console.log(obj[i]);
 }
-for of loop:-
+for of loop:
 var obj = [
 { person: "Rahul", age: "2", company: "GUVI" },
 { person: "Rohit", age: "5", company: "GUVI geek" },
@@ -62,7 +62,7 @@ for(var property of obj)
 {
 console.log(property);
 }
-for in loop:-
+for in loop:
 var obj = [
 { person: "Rahul", age: "2", company: "GUVI" },
 { person: "Rohit", age: "5", company: "GUVI geek" },
