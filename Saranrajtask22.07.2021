@@ -29,3 +29,41 @@ var maritalStatus="single";
 var country="INDIA";
 var age="23";
 console.log("First Name: ",firstName," Last Name: ",lastName," Marital Status: ",maritalStatus," Country: ",country,"Age: ",age);
+5)Question:
+Declare variables and assign string, boolean, undefined and null data types
+Answer:
+var name="Saran";
+var isSingle=true;
+var spouseName=undefined;
+var child=null;
+typeof(name);
+typeof(isSingle);
+typeof(spouseName);
+typeof(child);
+6)Question:
+Convert the string to integer
+Answer:
+var num1=100;
+var num2=100;
+console.log(parseInt(num1)+parseInt(num2));
+7)Question:
+Write 6 statement which provide truthy & falsey values
+Answer:
+truthy Statement:
+var a="0";
+var b=5;
+var c=-4;
+var d=10==10;
+var e=true;
+falsey Statement:
+var a=0;
+var b=false;
+var c=null;
+var d=undefined;
+var e=10==5;
+
+Task2:
+1)Question:
+Square of a number
+Answer:
+
