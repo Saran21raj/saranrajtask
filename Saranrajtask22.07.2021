@@ -61,7 +61,7 @@ var b=false;
 var c=null;
 var d=undefined;
 var e=10==5;
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task2:
 1)Question:
 Square of a number
@@ -212,3 +212,35 @@ console.log(totalAmount);
 21)Question
 Program To Calculate CGPA
 Answer:
+var sem1Gpa=7.5;
+var sem2Gpa=7.2;
+var sem3Gpa=7.7;
+var sem4Gpa=7.4;
+var sem5Gpa=7.8;
+var sem6Gpa=8.5;
+var sem7Ggpa=8.4;
+var sem8Gpa=9.0;
+var CGPA=(parseFloat(sem1Gpa)+parseFloat(sem2Gpa)+parseFloat(sem3Gpa)+parseFloat(sem4Gpa)+parseFloat(sem5Gpa)+parseFloat(sem6Gpa)+parseFloat(sem7Gpa)+parseFloat(sem8Gpa))/8;
+console.log(CGPA);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Question:
+ create your own resume data in JSON format
+ Answer:
+ var resume={
+ "Name":"Saranraj",
+ "role":"FullStackDeveloper",
+ "emailid":"saranraj21sr@gmail.com",
+ "MobileNO":9888888888,
+ "Location":"Chennai",
+ "Github":"Saran21raj",
+ "Education":{"College":{"Name":"Easwari Engineering College","CGPA":7.2},
+              "Diploma":{"Name":"Central Polytechnic College","Percentage":"70%"},
+              "10th School":{"Name":"Beta Matriculation Higher Secondary School","Percentage":"80%"}},
+  "Skills":["HTML","CSS","Android","Java"],
+  "Interests":["Android App  Development","Software Development"],
+  "Personal Information":{"Father Name":"G.Selvam",
+                          "Date of Birth":"21.07.1998",
+                          "Hobbies":["Cricket","Badminton","Songs","Movies"]
+                          }
+              }
+ 
