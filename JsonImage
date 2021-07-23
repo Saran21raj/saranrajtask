@@ -1,0 +1,39 @@
+var TechnicalSpecification ={
+    "dimensions":{
+        "overallLength-in-mm":3500,
+        "overallWidth-in-mm":1600,
+        "overallHeight-in-mm":1490,
+        "wheelbase-in-mm":2360,
+        "trackWidth":{
+            "front-in-mm":1405,
+            "rear-in-mm":1400 },
+        "minumumTurningRadius-in-m":4.5,
+        "minimumGroundClearance-in-mm":170},
+    "capacities":{
+        "seatingCapacity-in-persons":5,
+        "fuelTankCapacity-in-litres":35},
+    "Engine":{
+        "type":"KB-Series",
+        "numberOfCylinders":3,
+        "numberOfValues":12,
+        "capacity-in-cc/cm^3":998,
+        "bore-X-stroke-in-mm":"73.0 X 79.5",
+        "compressionRatio":10.1,
+        "maximumPower-in-PS/rpm": 67/6200,
+        "maximumPower-in-Nm/rpm": 90/3500,
+        "fuelDistribution":"Multipoint Injection"},
+    "transmission":{"type":"5-speed MT"},
+    "chasis":{
+        "steering":"Rack & Pinion, Power assisted",
+        "brakes":{
+            "front":"Ventilated discs",
+            "rear":"Drums"},
+        "suspension":{
+            "front":"MacPherson strut & coil Spring",
+            "rear": "Isolated trailing link & coil spring"},
+        "shockAbsorbers":"Gas filled",
+        "tyre(Tubeless)":"155/8OR13"},
+    "weights":{
+        "kerb weight(min,with full options) in kg":860-880,
+        "gross-Vehicle-weight-in-kg":1320}
+}
