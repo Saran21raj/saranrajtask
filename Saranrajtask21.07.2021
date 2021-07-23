@@ -40,9 +40,8 @@ Answer:
            "Subregion:",value[index]["subregion"],
            "Population: ",value[index]["population"]);
         }
-        }
-         
- for loop:
+        }     
+for loop:
 var obj = [
 { person: "Rahul", age: "2", company: "GUVI" },
 { person: "Rohit", age: "5", company: "GUVI geek" },
@@ -79,3 +78,9 @@ var obj = [
 { person: "Rakesh", age: "8", company: "GUVI geek network" },
 ]
 obj.forEach(keyname => console.log(keyname));
+Question:
+Difference Betweeen window,screen,document
+Answer:
+Window is like a global object in a browser, we can access it with window keyword
+screen is information about the physical screeen dimension
+document is where we do our html, css, javascript code
