@@ -28,9 +28,28 @@ for(let i=0;i<arr.length;i++){
 2)Question:
 (i) Convert all the strings to title caps in a string array in Anonymous function
 Answer:
+var arr="saran raj";
+var upper=function(str){
+    str.toLowerCase();
+    str=str.split(" ");
+     for(var i=0;i<str.length;i++){
+   str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);  
+}
+return str.join(" ");
+}
+upper(arr);
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 (ii)Convert all the strings to title caps in a string array in IIFE
 Answer:
+var arr="saran raj";
+(function(str){
+    str.toLowerCase();
+    str=str.split(" ");
+     for(var i=0;i<str.length;i++){
+   str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);  
+}
+return str.join(" ");
+})(arr);                                    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3)Question:
 (i)Sum of all numbers in an array in Anonymous Function
@@ -220,6 +239,70 @@ for(let i=0;i<arr.length;i++){
 }
 return arr;
 }
-odd(odarr);        
-2)         
-        
+odd(odarr);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+2)Convert all the strings to title caps in a string array
+Answer:
+var arr="saran raj";
+upper=(str)=>{
+    str.toLowerCase();
+    str=str.split(" ");
+     for(var i=0;i<str.length;i++){
+   str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);  
+}
+return str.join(" ");
+}
+upper(arr);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                    
+3) Sum of all numbers in an array                               
+Answer:
+add=(arr)=>{
+    var sum=0;
+for(let i=0;i<arr.length;i++){
+    sum=parseInt(arr[i])+parseInt(sum);
+}
+console.log(sum);
+}
+var sumarr=[1,2,3,4,5,6];
+add(sumarr);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+4) Return all the prime numbers in an array                                    
+Answer:
+var value=[1,2,3,4,5,6,7,8,9];
+prime=(arr)=>{
+    var primearr=[];
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]==2||arr[i]==3||arr[i]==5){
+            primearr.push(arr[i]);
+        }
+        if(arr[i]>5){
+        if(arr[i]%3&&arr[i]%2&&arr[i]%5!==0){
+          primearr.push(arr[i]);
+        }}
+     }
+     return primearr;
+}
+prime(value);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+5) Return all the palindromes in an array
+Answer:
+ var arr=["malayalam","appa","amma","son"];
+pal=(str)=>{
+var palindrome=[];
+for(var i=0;i<str.length;i++){
+    var splitfun=str[i].split("");
+    var reversefun=splitfun.reverse();
+    var joinfun=reversefun.join("");
+    if(str[i]==joinfun){
+        palindrome.push(str[i]);
+    }
+    }
+    return palindrome;
+}
+pal(arr);        
+                               
+                               
+                               
+                               
+                               
+                               
