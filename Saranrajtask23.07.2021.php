@@ -170,7 +170,8 @@ ar.sort(function(a,b){return a-b });
 var mid=ar.length/2;
 var finalvalue=(parseInt(ar[mid])+parseInt(ar[mid-1]))/2;
 return finalvalue;
-})(arr1,arr2)        
+})(arr1,arr2)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
 7)Question
 (i) Remove duplicates from an array in Anonymous Function
 Answer:
@@ -300,6 +301,48 @@ for(var i=0;i<str.length;i++){
     return palindrome;
 }
 pal(arr);        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+III. Function Warmup Problems
+1) Write a function called “addFive”.
+Given a number, “addFive” returns 5 added to that number
+Answer:
+var num = 10;
+function addFive(num) { 
+num=num+5;
+return num;
+}
+var result = addFive(num)
+console.log(result);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+2) Write a function called “getOpposite”.
+Given a number, return its opposite
+Answer:
+var num = 5;
+function getOpposite(num) {
+    if(typeof(num)=="number"){
+        return -Math.abs(num);
+    }
+    else if(typeof(num)=="string"){
+        return -1;
+    }
+}
+var result = getOpposite(num);
+console.log(result);                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+3) Fill in your code that takes an number minutes and converts it to seconds.                                                              
+Answer:
+var min = 5;
+function toSeconds(min) {
+min=min*60;
+return min;
+}
+var secs = toSeconds(min)
+console.log(secs);                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------                               
+ 
+                               
+                               
+                               
                                
                                
                                
