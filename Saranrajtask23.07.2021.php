@@ -140,6 +140,7 @@ var finalvalue=(parseInt(ar[mid])+parseInt(ar[mid-1]))/2;
 return finalvalue;
 }
 median(arr1,arr2);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
 (ii) Return median of two sorted arrays of same size in  IIFE
 Answer:
 var arr1=[1,2,3,4,5,6];
@@ -151,3 +152,35 @@ var mid=ar.length/2;
 var finalvalue=(parseInt(ar[mid])+parseInt(ar[mid-1]))/2;
 return finalvalue;
 })(arr1,arr2)        
+7)Question
+(i) Remove duplicates from an array in Anonymous Function
+Answer:
+var arr=[1,2,1,2,3,4,5];
+var dup=function(val){
+    val.sort(function(a,b){return a-b});
+    for(var i=0;i<val.length;i++){
+        for(var j=i+1;j<val.length;j++){
+            if(val[i]==val[j]){
+                val.splice(val[j],1);
+            }
+        }
+    }
+    return val;
+}
+dup(arr);        
+(ii) Remove duplicates from an array in IIFE        
+Answer:        
+var arr=[1,2,1,2,3,4,5];
+(function(val){
+    val.sort(function(a,b){return a-b});
+    for(var i=0;i<val.length;i++){
+        for(var j=i+1;j<val.length;j++){
+            if(val[i]==val[j]){
+                val.splice(val[j],1);
+            }
+        }
+    }
+    return val;
+})(arr);              
+        
+        
