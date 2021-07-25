@@ -1,6 +1,6 @@
 Name: Saranraj S
 Date:23.07.2021
-Do the below programs in anonymous function & IIFE
+I.  Do the below programs in anonymous function & IIFE
 1)Question:
 (i)Print odd numbers in an array in Anonymous Function
 Answer:
@@ -167,7 +167,8 @@ var dup=function(val){
     }
     return val;
 }
-dup(arr);        
+dup(arr);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
 (ii) Remove duplicates from an array in IIFE        
 Answer:        
 var arr=[1,2,1,2,3,4,5];
@@ -181,6 +182,44 @@ var arr=[1,2,1,2,3,4,5];
         }
     }
     return val;
-})(arr);              
-        
+})(arr);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+8)Question
+(i) Rotate an array by k times in Anonymous Function
+Answer:
+var arr=[1,2,3,4,5];
+var k=3;
+var rot=function(val,r){
+for(var i=0;i<r;i++){
+    val.unshift(val.pop());
+}
+console.log(val);
+}
+rot(arr,k);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+(ii) Rotate an array by k times in IIFE
+Answer:        
+var arr=[1,2,3,4,5];
+var k=3;
+(function(val,r){
+for(var i=0;i<r;i++){
+    val.unshift(val.pop());
+}
+console.log(val);
+})(arr,k)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+II.  Do the below programs in arrow functions
+1) Print odd numbers in an array
+Answer:
+var odarr=[1,2,3,4,5,6];
+odd=(arr) => {
+for(let i=0;i<arr.length;i++){
+    if(arr[i]%2!=0){
+        console.log(arr[i]);
+    }
+}
+return arr;
+}
+odd(odarr);        
+2)         
         
