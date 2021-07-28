@@ -1,0 +1,41 @@
+
+
+1) Class - Movie
+class Movie{
+    constructor(name,studio,rating){
+        this.name=name;
+        this.studio=studio;
+        this.rating="PG";
+    }
+    getPG(arr){
+        var pgmv=[];
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]["rating"]=="PG"){
+                pgmv.push(arr[i]["Mname"]) ;
+            }
+        }
+        return pgmv;
+    }
+    getMovieDetails(){
+        console.log("Movie Name: ",this.name);
+        console.log("Studio Name",this.studio);
+        console.log("Rating:",this.rating);
+    }
+    setMovieDetails(name,studio,rating){
+        this.name=name;
+        this.studio=studio;
+        this.rating=rating;
+
+    }
+
+}
+var mo=new Movie("007","SR");
+var abc=[{Mname:"saran",
+            studio:"SR",
+             rating:"PG"},
+        {Mname:"raj",
+        studio:"SR",
+         rating:"PG"}];
+//console.log(mo.getPG(abc));
+//mo.setMovieDetails("Chennai-28","Blackticket");
+mo.getMovieDetails();
