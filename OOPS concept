@@ -1,5 +1,5 @@
 
-
+Class - Movie
 1) Class - Movie
 class Movie{
     constructor(name,studio,rating){
