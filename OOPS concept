@@ -84,4 +84,69 @@ cir.getColor();
 cir.getArea();
 cir.getCircumference();
 3) Person class
+class person{
+    constructor(name,age,dob){
+        this.name=name;
+        this.age=age;
+        this.dob=dob;
+    }
+    getName(){
+        console.log("Name: ",this.name);
+    }
+    setName(name){
+        this.name=name;
+    }
+    getDob(){
+        console.log("DOB: ",this.dob);
+    }
+    setDob(dob){
+        this.dob=dob;
+    }
+    getAge(){
+        console.log("Age: ",this.age);
+    }
+    setAge(age){
+        this.age=age;
+    }
+    printDetails(){
+        console.log("Name: ",this.name);
+        console.log("Age: ",this.age);
+        console.log("DOB: ",this.dob);
+    }
+}
 
+var per=new person("Saran",23,"21/07/1998");
+per.getName();
+per.getAge();
+per.getDob();
+per.setName("Virat Kohli");
+per.setAge(32);
+per.setDob("05/11/1988");
+per.printDetails();
+4)Uber Price
+
+class uber{
+    constructor(area,km){
+        this.area=area;
+        this.km=km;
+    }
+    getAreaAndPrice(){
+        let price;
+        console.log("Area: ",this.area);
+        if(this.km<=1){
+            price=30;
+        }
+        else{
+            price=this.km*12;
+        }
+        console.log("Price: ",this.price);
+    }
+    setAreaAndKm(area,km){
+        this.area=area;
+        this.km=km;
+    }
+}
+var price=new uber("Guindy",10);
+price.getAreaAndPrice();
+price.setAreaAndKm("Vadapalani",20);
+price.getAreaAndPrice();
