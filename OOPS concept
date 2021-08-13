@@ -1,13 +1,11 @@
-
-Class - Movie
 1) Class - Movie
-class Movie{
+class movie{
     constructor(name,studio,rating){
         this.name=name;
         this.studio=studio;
-        this.rating="PG";
+        this.rating="PG";                     //Setting PG as a default rating 
     }
-    getPG(arr){
+    getPG(arr){                               //Sending an array to get movie name which is under PG rating
         var pgmv=[];
         for(var i=0;i<arr.length;i++){
             if(arr[i]["rating"]=="PG"){
@@ -16,12 +14,12 @@ class Movie{
         }
         return pgmv;
     }
-    getMovieDetails(){
+    getMovieDetails(){                         //To get an details about Movie
         console.log("Movie Name: ",this.name);
         console.log("Studio Name",this.studio);
         console.log("Rating:",this.rating);
     }
-    setMovieDetails(name,studio,rating){
+    setMovieDetails(name,studio,rating){        //Set movie name,studio and rating
         this.name=name;
         this.studio=studio;
         this.rating=rating;
@@ -29,7 +27,7 @@ class Movie{
     }
 
 }
-var mo=new Movie("007","SR");
+var mo=new movie("007","SR");
 var abc=[{Mname:"saran",
             studio:"SR",
              rating:"PG"},
@@ -39,3 +37,6 @@ var abc=[{Mname:"saran",
 //console.log(mo.getPG(abc));
 //mo.setMovieDetails("Chennai-28","Blackticket");
 mo.getMovieDetails();
+
+
+2) Circle UML
