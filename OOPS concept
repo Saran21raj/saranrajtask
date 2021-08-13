@@ -139,7 +139,7 @@ class uber{
         else{
             price=this.km*12;
         }
-        console.log("Price: ",this.price);
+        console.log("Price: ",price);
     }
     setAreaAndKm(area,km){
         this.area=area;
