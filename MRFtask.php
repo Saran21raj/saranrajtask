@@ -23,6 +23,27 @@ b)Get all the countries with a population of less than 2 lakhs using Filter func
          } 
        }
 c) Print the following details name, capital, flag using forEach function
-   
+   fetch('https://restcountries.eu/rest/v2/all')
+    .then(response=>response.json())
+    .then(data=>data.filter(function(value){
+        data.forEach(value=>{
+            console.log("Name",value.name);
+            console.log("Capital",value.capital);
+            console.log("Flag",value.flag);
+          })
+      }));
+d) Print the total population of countries using reduce function
+             fetch('https://restcountries.eu/rest/v2/all')
+    .then(response=>response.json())
+    .then(data=>data.reduce(function(prev,curr){
+        console.log(parseInt(prev)+parseInt(curr.population)) ;
+      },0));
+e) Print the country which uses US Dollars as currency.
 
+fetch('https://restcountries.eu/rest/v2/all')
+    .then(response=>response.json())
+    .then(data=>data.filter(function(value){
+            if(value.currencies[0].code=="USD")
+                console.log(value.name);})
+    );
 
