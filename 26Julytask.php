@@ -303,5 +303,53 @@ for (var i = 0; i < numsArr.length; i++) {
 }
 console.log(str_all);
 ---------------------------------------------------------------------------------------------------------------------------
+3)Fix the code to get the largest of three.
+Code:
+aa = (f,s,t) => {
+    console.log(f,s,t);
+    if(f>s &&f>t){
+    console.log(f)}
+    else if(s>f && s>t){
+    console.log(s)}
+    else{
+    console.log(t)}
+   }
+aa(1,2,3);
+---------------------------------------------------------------------------------------------------------------------------
+Fix the code to Sum of the digits present in the number
+Code:
+let n = "123";
+console.log(add(n));
+function add(n)
+{
+let sum=10;
+for(var i=0;i<n.length;i++){
+ sum=parseInt(sum)+parseInt(n[i])
+ }
+ return sum;
+}
+---------------------------------------------------------------------------------------------------------------------------
+Fix the code to Sum of all numbers using IIFE function
+Code:
+const arr = [9,8,5,6,4,3,2,1];
+(function() {
+    let sum = 0;
+    for (var i = 0; i < arr.length; i++){
+    sum =parseInt(sum)+parseInt(arr[i]);
+    }
+    console.log(sum);
+   })();
+---------------------------------------------------------------------------------------------------------------------------
+Fix the code to gen Title caps.
+Code:
+var arr = ["guvi", "geek", "zen", "fullstack"];
+var ano = function(arro) {
+    for (var i = 0; i < arro.length; i++) {
+    console.log(arro[i][0].toUpperCase() + arro[i].substr(1));
+    }
+   }
+ano(arr);
+---------------------------------------------------------------------------------------------------------------------------
+
 
 
