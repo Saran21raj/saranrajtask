@@ -1,0 +1,2359 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html,body{
+  height: 100%;
+}
+
+.header
+{
+  height: 15%;
+  width: 100%;
+  background-color: rgba(47,61,70,255);
+  background-image: url("GitHub-Mark-Light-64px.png");
+  background-position: 20px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.header h1
+{
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.bodypage
+{
+  height: 85%;
+  width: 100%;
+  background-color: rgba(202,210,197,255);
+}
+.searchbarLayout
+{
+  position: absolute;
+  top:150px;
+  left:500px;
+}
+.searchbar
+{
+  height: 40px;
+  width: 600px;
+  background-color:rgba(53,53,53,255);
+  color: rgba(202,210,197,255);
+  border-radius: 10px;
+  border:0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.profilepic
+{
+  position: absolute;
+  top:150px;
+  left: 50px;
+  height: 430px;
+  width: 250px;
+  background-color:rgba(53,53,53,255);
+  border-radius: 15px;
+  border:0px;
+}
+.repositoryContainer
+{
+  position: absolute;
+  left: 450px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.container
+{
+  height: 120px;
+  width: 180px;
+  background-color:rgba(53,53,53,255);
+  position: relative;
+  top:150px;
+  border-radius: 15px;
+  border:0px;
+}
+.contactus
+{
+  position: absolute;
+  top: 430px;
+  left: 450px;
+  height: 140px;
+  width: 740px;
+  background-color: rgba(53,53,53,255);
+  border-radius: 15px;
+  border:0px;
+}
+@media screen and (min-width:450px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 400px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 140px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 230px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 400px;
+  }
+}
+@media screen and (min-width:460px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 410px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 140px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 240px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 410px;
+  }
+}
+@media screen and (min-width:470px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 420px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 140px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 250px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 420px;
+  }
+}
+@media screen and (min-width:480px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 430px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 140px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 250px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 430px;
+  }
+}
+@media screen and (min-width:490px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 440px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 140px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 260px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 440px;
+  }
+}
+@media screen and (min-width:500px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 450px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 150px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 260px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 450px;
+  }
+}
+@media screen and (min-width:510px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 460px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 260px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 460px;
+  }
+}
+@media screen and (min-width:520px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 470px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 270px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 470px;
+  }
+}
+@media screen and (min-width:530px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 480px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 280px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 480px;
+  }
+}
+@media screen and (min-width:540px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 490px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 290px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 490px;
+  }
+}
+@media screen and (min-width:550px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 500px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 300px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 500px;
+  }
+}
+@media screen and (min-width:560px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 510px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 310px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 510px;
+  }
+}
+@media screen and (min-width:570px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 520px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 320px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 520px;
+  }
+}
+@media screen and (min-width:580px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 530px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 330px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 530px;
+  }
+}
+@media screen and (min-width:590px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 540px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 340px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 540px;
+  }
+}
+@media screen and (min-width:600px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 550px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 350px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 550px;
+  }
+}
+@media screen and (min-width:610px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 560px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 360px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 560px;
+  }
+}
+@media screen and (min-width:620px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 570px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 370px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 570px;
+  }
+}
+@media screen and (min-width:630px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 580px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 380px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 580px;
+  }
+}
+@media screen and (min-width:640px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 590px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 390px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 590px;
+  }
+}
+@media screen and (min-width:650px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 610px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 410px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 610px;
+  }
+}
+@media screen and (min-width:660px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 620px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 420px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 620px;
+  }
+}
+@media screen and (min-width:670px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 630px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 430px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 630px;
+  }
+}
+@media screen and (min-width:680px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 640px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 440px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 640px;
+  }
+}
+@media screen and (min-width:690px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 650px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 450px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 650px;
+  }
+}
+@media screen and (min-width:700px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 660px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 460px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 660px;
+  }
+}
+@media screen and (min-width:710px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 670px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 470px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 670px;
+  }
+}
+@media screen and (min-width:720px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 680px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 480px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 680px;
+  }
+}
+@media screen and (min-width:730px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 690px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 490px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 690px;
+  }
+}
+@media screen and (min-width:740px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 700px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 500px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 700px;
+  }
+}
+@media screen and (min-width:750px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 710px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 510px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 710px;
+  }
+}
+@media screen and (min-width:760px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 720px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 520px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 720px;
+  }
+}
+@media screen and (min-width:770px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 730px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 530px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 730px;
+  }
+}
+@media screen and (min-width:780px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 740px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 160px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 540px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 740px;
+  }
+}
+@media screen and (min-width:790px){
+  .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 750px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 170px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 550px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 750px;
+  }
+}
+@media screen and (min-width:800px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 760px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 170px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 550px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 760px;
+  }
+}
+@media screen and (min-width:810px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 770px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 180px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 550px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 770px;
+  }
+}
+@media screen and (min-width:820px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 780px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 180px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 550px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 780px;
+  }
+}
+@media screen and (min-width:830px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 790px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 190px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 560px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 790px;
+  }
+}
+@media screen and (min-width:840px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 800px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 190px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 560px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 800px;
+  }
+}
+@media screen and (min-width:850px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 810px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 200px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 570px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 810px;
+  }
+}
+@media screen and (min-width:860px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 820px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 200px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 570px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 820px;
+  }
+}
+@media screen and (min-width:870px){
+  /* .searchbarLayout{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 830px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 210px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 570px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 830px;
+  }
+}
+@media screen and (min-width:880px){
+  /* .searchbarLayout
+  {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  } */
+  .searchbar
+  {
+    height: 40px;
+    width: 840px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 220px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 590px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 840px;
+  }
+}
+@media screen and (min-width:890px){
+  .searchbarLayout
+  {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 850px;
+  }
+  .profilepic
+  {
+    height: 295px;
+    width: 220px;
+    left: 10px;
+  }
+  .repositoryContainer
+  {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container
+  {
+  height: 85px;
+  width: 590px;
+  }
+  .contactus
+  {
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    height: 140px;
+    width: 850px;
+  }
+}
+@media screen and (min-width: 900px){
+  .searchbarLayout
+  {
+    top: 150px;
+    left: 360px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 490px;
+  }
+  .profilepic
+  {
+    height: 350px;
+    width: 190px;
+    left: 20px;
+  }
+  .repositoryContainer{
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    left: 290px;
+    gap: 100px;
+  }
+  .container
+  {
+  height: 100px;
+  width: 130px;
+  }
+  .contactus
+  {
+    top: 370px;
+    left: 290px;
+    height: 130px;
+    width: 590px;
+  }
+}
+@media screen and (min-width:1100px){
+  .searchbarLayout
+  {
+    left: 370px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 510px;
+  }
+  .profilepic
+  {
+    height: 360px;
+    width: 200px;
+    left: 20px;
+  }
+  .repositoryContainer{
+    left: 300px;
+  }
+  .container
+  {
+  height: 100px;
+  width: 140px;
+  }
+  .contactus
+  {
+    top: 370px;
+    left: 300px;
+    height: 130px;
+    width: 620px;
+  }
+}
+@media screen and (min-width: 1110px){
+  .searchbarLayout
+  {
+    left: 380px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 530px;
+  }
+  .profilepic
+  {
+    height: 370px;
+    width: 210px;
+    left: 20px;
+  }
+  .repositoryContainer{
+    left: 310px;
+  }
+  .container
+  {
+  height: 110px;
+  width: 150px;
+  }
+  .contactus
+  {
+    top: 380px;
+    left: 310px;
+    height: 130px;
+    width: 650px;
+  }
+}
+@media screen and (min-width: 1120px)
+{
+  .searchbarLayout
+  {
+    left: 390px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 540px;
+  }
+  .profilepic
+  {
+    height: 380px;
+    width: 220px;
+    left: 20px;
+  }
+  .repositoryContainer{
+    left:320px;
+  }
+  .container
+  {
+  height: 110px;
+  width: 160px;
+  }
+  .contactus
+  {
+    top: 380px;
+    left: 320px;
+    height: 130px;
+    width: 680px;
+  }
+}
+@media screen and (min-width: 1130px)
+{
+  .searchbarLayout
+  {
+    left:400px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 550px;
+  }
+  .profilepic
+  {
+    left: 20px;
+    height: 400px;
+    width: 230px;
+  }
+  .repositoryContainer{
+    left:330px;
+  }
+  .container
+  {
+  height: 110px;
+  width: 160px;
+  }
+  .contactus
+  {
+    top: 400px;
+    left: 330px;
+    height: 130px;
+    width: 680px;
+  }
+}
+@media screen and (min-width: 1140px)
+{
+  .searchbarLayout{
+  left: 410px;
+  }
+  .searchbar
+  {
+    height: 40px;
+    width: 600px;
+  } 
+  .profilepic{
+    width: 250px;
+    height: 430px;
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 340px;
+  }
+  .container
+  {
+  height: 120px;
+  width: 180px;
+  }
+  .contactus
+  {
+    top: 420px;
+    left: 340px;
+    width: 740px;
+    height: 140px;
+  }
+}
+@media screen and (min-width:1150px)
+{
+  .searchbarLayout{
+  left: 420px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 350px;
+  }
+}
+@media screen and (min-width:1160px)
+{
+  .searchbarLayout{
+  left: 430px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 360px;
+  }
+}
+@media screen and (min-width:1170px)
+{
+  .searchbarLayout{
+  left: 440px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 370px;
+  }
+}
+@media screen and (min-width:1180px)
+{
+  .searchbarLayout{
+  left: 450px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 380px;
+  }
+}
+@media screen and (min-width:1190px)
+{
+  .searchbarLayout{
+  left: 460px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 390px;
+  }
+}
+@media screen and (min-width:1200px)
+{
+  .searchbarLayout{
+  left: 470px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 400px;
+  }
+}
+@media screen and (min-width:1210px)
+{
+  .searchbarLayout{
+  left: 480px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 410px;
+  }
+}
+@media screen and (min-width:1220px)
+{
+  .searchbarLayout{
+  left: 490px;
+  }
+  .profilepic{
+    left: 20px;
+  }
+  .repositoryContainer,.contactus{
+    left: 420px;
+  }
+}
+@media screen and (min-width:1230px)
+{
+  .searchbarLayout{
+  left: 500px;
+  }
+  .profilepic{
+    left: 30px;
+  }
+  .repositoryContainer,.contactus{
+    left: 430px;
+  }
+}
+@media screen and (min-width:1240px)
+{
+  .searchbarLayout{
+    left: 510px;
+  }
+  .profilepic{
+    left: 30px;
+  }
+  .repositoryContainer,.contactus{
+    left: 440px;
+  }
+}
+@media screen and (min-width:1250px)
+{
+  .searchbarLayout{
+    left: 520px;
+  }
+  .profilepic{
+    left: 40px;
+  }
+  .repositoryContainer,.contactus{
+    left: 450px;
+  }
+}
+@media screen and (min-width:1260px)
+{
+  .searchbarLayout{
+    left: 530px;
+  }
+  .profilepic{
+    left: 40px;
+  }
+  .repositoryContainer,.contactus{
+    left: 460px;
+  }
+}
+@media screen and (min-width:1270px)
+{
+  .searchbarLayout{
+    left: 540px;
+  }
+  .profilepic{
+    left: 50px;
+  }
+  .repositoryContainer,.contactus{
+    left: 470px;
+  }
+}
+@media screen and (min-width:1280px)
+{
+  .searchbarLayout{
+    left: 550px;
+  }
+  .profilepic{
+    left: 60px;
+  }
+  .repositoryContainer,.contactus{
+    left: 480px;
+  }
+}
+@media screen and (min-width:1290px)
+{
+  .searchbarLayout{
+  left: 560px;
+  }
+  .profilepic{
+    left: 70px;
+  }
+  .repositoryContainer,.contactus{
+    left: 490px;
+  }
+}
+@media screen and (min-width:1300px)
+{
+  .searchbarLayout{
+    left: 570px;
+  }
+  .profilepic{
+    left: 70px;
+  }
+  .repositoryContainer,.contactus{
+    left: 500px;
+  }
+}
+@media screen and (min-width:1310px)
+{
+  .searchbarLayout{
+  left: 580px;
+  }
+  .profilepic{
+    left: 80px;
+  }
+  .repositoryContainer,.contactus{
+    left: 510px;
+  }
+}
+@media screen and (min-width:1320px)
+{
+  .searchbarLayout{
+  left: 590px;
+  }
+  .profilepic{
+    left: 90px;
+  }
+  .repositoryContainer,.contactus{
+    left: 520px;
+  }
+}
+@media screen and (min-width:1330px)
+{
+  .searchbarLayout{
+  left: 600px;
+  }
+  .profilepic{
+    left: 100px;
+  }
+  .repositoryContainer,.contactus{
+    left: 530px;
+  }
+}
+@media screen and (min-width:1340px)
+{
+  .searchbarLayout{
+  left: 610px;
+  }
+  .profilepic{
+    left: 110px;
+  }
+  .repositoryContainer,.contactus{
+    left: 540px;
+  }
+}
+@media screen and (min-width:1350px)
+{
+  .searchbarLayout{
+  left: 620px;
+  }
+  .profilepic{
+    left: 120px;
+  }
+  .repositoryContainer,.contactus{
+    left: 550px;
+  }
+}
+@media screen and (min-width:1360px)
+{
+  .searchbarLayout{
+  left: 630px;
+  }
+  .profilepic{
+    left: 130px;
+  }
+  .repositoryContainer,.contactus{
+    left: 560px;
+  }
+}
+@media screen and (min-width:1370px)
+{
+  .searchbarLayout{
+  left: 640px;
+  }
+  .profilepic{
+    left: 140px;
+  }
+  .repositoryContainer,.contactus{
+    left: 570px;
+  }
+}
